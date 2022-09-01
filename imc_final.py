@@ -8,7 +8,6 @@ imc = float(peso/(altura*altura))
 if ((imc)) < 18.5:
     print('{:.2f}'.format(imc))
     print('Você está abaixo do peso segundo a OMS.')
-    
 elif (((imc)) >= 18.5 and ((imc)) < 24.9):
     print('{:.2f}'.format(imc))
     print('Você está com o peso normal segundo a OMS.')
